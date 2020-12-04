@@ -1,0 +1,41 @@
+#profile {
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: 90%;
+    text-align: center;
+    border: 4px outset black;
+    background-color: darkseagreen;
+    border-radius: 10px 10px 10px 10px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+#profile div img {
+    float : left;
+    height: 30%;
+    width: 40%;
+    border-radius: 10px 10px 10px 10px;
+}
+#profile #info {
+    float: left;
+    margin-left: 3%;
+    width: 55%;
+    height: 30%;
+    border-radius: 10px 10px 10px 10px;
+    word-wrap: break-word;
+    border: 4px outset black;
+    text-align: left;
+    background-color:coral;
+    font-size : 1vw;
+}
+
+#profile #info h4 {
+    margin-left: 3%;
+    font-style: italic;
+}
+
+#profile #info h3 {
+    margin-left: 6%;
+    color: blue;
+    font-style:inherit;
+}

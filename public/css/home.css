@@ -1,0 +1,172 @@
+#pub {
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: 60%;
+    text-align: center;
+    border: 4px outset black;
+    background-color: darkseagreen;
+    border-radius: 10px 10px 10px 10px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+#loginzone {
+    margin-left: 3%;
+    float: left;
+}
+#loginzone p{
+    color : blue;
+    font-weight: bold;
+    font-size : 1vw;
+    font-style:oblique;
+    margin-top: 20%;
+}
+#datezone {
+    float: right;
+    margin-right: 5%;
+}
+#datezone p{
+    color : black;
+    font-weight: bold;
+    font-style : italic;
+    font-size : 1vw;
+}
+#pubzone {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    height: auto;
+    width: 80%;
+    text-align: center;
+    border: 2px outset black;
+    background-color:darkslategray;
+    border-radius: 10px 10px 10px 10px;
+    word-wrap: break-word;
+}
+#pubzone p{
+    color : white;
+    font-size : 1vw;
+}
+#pubzone img{
+    height: 80%;
+    width: 90%;
+    border-radius: 10px 10px 10px 10px;
+}
+#pub #like {
+    float: left;
+}
+#likezone {
+    height: 50%;
+    width: 99%;
+    top : 92%;
+}
+#likezone b {
+    float : left;
+    color : blue;
+    font-style: italic;
+    font-size : 1vw;
+}
+#likezone input {
+    float : left;
+    width: 5%;
+    height: 5%;
+    margin-left: 3%;
+}
+.btn-cmnt {
+    float: right;
+    margin-right: 30%;
+    background-color: #555;
+    color: white;
+    font-size : 1vw;
+    padding: 8px 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.cmnts {
+    position : relative;
+    text-align: center;
+    margin: auto;
+    border: 4px outset  black;
+    height: auto;
+    width: 60%;
+    background-color: cadetblue;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.cmnt {
+    text-align:center;
+    margin: auto;
+    height: auto;
+    width: 100%;
+    background-color: darkseagreen;
+    border-radius: 20px 20px 20px 20px;
+    word-wrap: break-word;
+}
+.cmnt #login {
+    float: left;
+    margin-left: 6px;
+    color: blue;
+    font-size : 1vw;
+}
+.cmnt #date {
+    float: left;
+    margin-left: 6px;
+    color : darkblue;
+    font-size : 1vw;
+}
+
+.cmnt #subject {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size : 1vw;
+}
+.cmnts .hr {
+    border-radius: 2px;
+}
+.btn {
+    margin-top: 1%;
+    float: left;
+    margin-left: 5%;
+    width: 13%;
+    height: 70%;
+    background-color: green;
+    color: white;
+    font-size : 1vw;
+    padding: 6px 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+#subcmnt textarea {
+    margin-top: 3px;
+    float: left;
+    width: 80%;
+    height: 80%;
+    resize: none;
+    font-style: oblique;
+    border-radius: 10px 10px 10px 10px;
+    font-size : 1vw;
+}
+.cmnts #subcmnt {
+    text-align: center;
+    margin: auto;
+    height: 100%;
+    width: auto;
+    background-color:darkseagreen;
+    word-wrap: break-word;
+    font-size : 1vw;
+}
+
+.delete {
+    width: 3%;
+    height: 3%;
+}
+.deletecmnt {
+    width: 3%;
+    height: 3%;
+    float: right;
+}

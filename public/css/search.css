@@ -1,0 +1,33 @@
+#users {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    border: 4px outset black;
+    background-color: darkslategray;
+    border-radius: 10px 10px 10px 10px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+#users h3 {
+    color : white;
+}
+
+#user {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    border: 4px outset black;
+    background-color: darkseagreen;
+    border-radius: 10px 10px 10px 10px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+#users img {
+    margin-top: 3%;
+    width: 90%;
+    height: 40%;
+}

@@ -1,0 +1,92 @@
+.camera {
+    position : relative;
+    height: 500px;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    border: 8px outset black;
+    background-color: burlywood;
+    border-radius: 10px 10px 10px 10px;
+    /* word-wrap: break-word; */
+    /* overflow: hidden; */
+    overflow-y:scroll;
+}
+
+.camera #imgs {
+    float: left;
+    overflow: auto; /* adds scrollbars */
+    width: 30%;
+    height: 80%;
+    background-color: #f2f2f2;
+    position: relative;
+    border: 5px outset black;
+}
+
+.camera #imgs > img {
+    height: 50%; /* probably looks neater if auto */
+    width: 50%; /* double width image to show only first quarter */
+    vertical-align: bottom; /* moves image to true text bottom */
+    float: left;
+}
+.camera #video {
+    width: 37%;
+    height: 80%;
+    float: left;
+    border: 5px outset black;
+    background-color: #f2f2f2;
+}
+.camera #video #vid {
+    width: 98%;
+    height: 98%;
+}
+.camera #emoji {
+    width: 30%;
+    height: 80%;
+    float: left;
+    border: 5px outset black;
+    background-color: #f2f2f2;
+    overflow: auto;
+}
+
+.camera #emoji div {
+    float: left;
+    height : 50%;
+    width : 50%;
+}
+.camera #emoji div img {
+    height: 100%;
+    width: 100%;
+}
+
+.pub {
+    width: 100%;
+    height : 10%;
+    margin: auto;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+.pub #st {
+    margin-left : 8px;
+    float: left;
+    margin-bottom: 4px;
+}
+.pub #pb {
+    height: 70%;
+    width: 80%;
+    margin-top: 4px;
+    margin-left : 8px;
+    float : left;
+    resize: none;
+}
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
